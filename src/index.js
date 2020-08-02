@@ -8,9 +8,9 @@ document.addEventListener("DOMContentLoaded", () => {
    submit.addEventListener("submit",function(event){
       event.preventDefault();
       const newListItem= document.createElement(li);
-      newListItem.innerHtml=
-       .appendChild(ul);
-       li.innerHtml+=input;
+      newListItem.innerHtml=input.value;
+       myList.appendChild(newListItem);
+      
 
    },false);
 });
