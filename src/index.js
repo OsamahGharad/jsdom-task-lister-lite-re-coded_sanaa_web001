@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
    const create-task-form=document.getElementById('create-task-form');
    create-task-form.addEventListener('submit',(event) => {
       event.preventDefault();
+      return false;
       const task-description-input=document.getElementById('new-task-description');
       const myTasksLists = document.getElementById('tasks');
       const newListItem= document.createElement(li);
