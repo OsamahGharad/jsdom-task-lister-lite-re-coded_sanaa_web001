@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const  my_tasks_lists = document.getElementById('tasks');
       const new_listItem= document.createElement(li);
       new_listItem.innerHtml=task_description_input;
-       my_tasks_lists.appendChild(newListItem);
+       my_tasks_lists.appendChild(new_listItem);
           console.log(my_tasks_lists);
    });
   // let submit = document.getElementById('create-task-form');
