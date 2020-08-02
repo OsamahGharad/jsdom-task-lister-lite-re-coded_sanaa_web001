@@ -9,7 +9,5 @@ document.addEventListener("DOMContentLoaded", () => {
       const newListItem= document.createElement(li);
       newListItem.innerHtml=task-description-input.value;
        myTasksLists.appendChild(newListItem);
-
-
-   },false);
+   });
 });
