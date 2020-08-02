@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-  let input=document.getElementById('new-task-description');
-   let submit=document.getElementById('create-task-form');
+  let task-description=document.getElementById('new-task-description');
+   let create-task-form=document.getElementById('create-task-form');
    let myList = document.createElement('ul');
    body.appendChild(myList);
 
-   submit.addEventListener("submit",function(event){
+   create-task-form.addEventListener("submit",function(event){
       event.preventDefault();
       const newListItem= document.createElement(li);
       newListItem.innerHtml=input.value;
