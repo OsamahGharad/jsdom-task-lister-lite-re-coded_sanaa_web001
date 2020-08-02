@@ -5,10 +5,10 @@ document.addEventListener("DOMContentLoaded", () => {
    submitForm.addEventListener('submit',(event) => {
       event.preventDefault();
 
-      const task-description-input=document.getElementById('new-task-description').value;
+      const task_description_input=document.getElementById('new-task-description').value;
       const myTasksLists = document.getElementById('tasks');
       const newListItem= document.createElement(li);
-      newListItem.innerHtml=task-description-input;
+      newListItem.innerHtml=task_description_input;
        myTasksLists.appendChild(newListItem);
           console.log(myTasksLists);
    });
