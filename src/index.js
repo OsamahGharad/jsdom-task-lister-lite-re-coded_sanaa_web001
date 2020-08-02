@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
       const task_description_input=document.getElementById('new-task-description').value;
       const myTasksLists = document.getElementById('tasks');
       const newListItem= document.createElement(li);
-      newListItem.innerHtml=task_description_input;
-       myTasksLists.appendChild(newListItem);
+      new_listItem.innerHtml=task_description_input;
+       my_tasks_lists.appendChild(newListItem);
           console.log(myTasksLists);
    });
   // let submit = document.getElementById('create-task-form');
