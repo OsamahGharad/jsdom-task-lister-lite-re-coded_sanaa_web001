@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
       new_listItem.innerHTML=task_description_input;
        my_tasks_lists.appendChild(new_listItem);
           console.log(my_tasks_lists);
-            let task_description_input=" ";
+            // let task_description_input=" ";
           // event.target.reset();
    });
 
