@@ -12,5 +12,5 @@ document.addEventListener("DOMContentLoaded", () => {
        my_tasks_lists.appendChild(new_listItem);
           console.log(my_tasks_lists);
    });
-  
+
 });
