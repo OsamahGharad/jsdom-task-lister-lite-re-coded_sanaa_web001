@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
       event.preventDefault();
 
       const task_description_input=document.getElementById('new-task-description').value;
-      const myTasksLists = document.getElementById('tasks');
-      const newListItem= document.createElement(li);
+      const  my_tasks_lists = document.getElementById('tasks');
+      const new_listItem= document.createElement(li);
       new_listItem.innerHtml=task_description_input;
        my_tasks_lists.appendChild(newListItem);
           console.log(my_tasks_lists);
