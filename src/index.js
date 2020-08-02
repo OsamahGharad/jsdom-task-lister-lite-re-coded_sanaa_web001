@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const newListItem= document.createElement(li);
       newListItem.innerHtml=input.value;
        myList.appendChild(newListItem);
-      
+
 
    },false);
 });
