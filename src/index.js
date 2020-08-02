@@ -2,14 +2,12 @@ document.addEventListener("DOMContentLoaded", () => {
   // your code here
 
    const create-task-form=document.getElementById('create-task-form');
-
-
    create-task-form.addEventListener('submit',(event) => {
       event.preventDefault();
-
+      const task-description-input=document.getElementById('new-task-description');
       const myTasksLists = document.getElementById('tasks');
       const newListItem= document.createElement(li);
-       const task-description-input=document.getElementById('new-task-description');
+       
       newListItem.innerHtml=task-description-input.value;
        myTasksLists.appendChild(newListItem);
           console.log(myTasksLists);
