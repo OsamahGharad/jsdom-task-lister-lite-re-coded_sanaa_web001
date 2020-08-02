@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
        my_tasks_lists.appendChild(new_listItem);
           console.log(my_tasks_lists);
              task_description_input=" ";
-          // event.target.reset();
+             event.target.reset();
    });
 
 });
