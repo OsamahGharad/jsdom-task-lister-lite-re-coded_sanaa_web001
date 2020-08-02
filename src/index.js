@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const task-description-input=document.getElementById('new-task-description');
       const myTasksLists = document.getElementById('tasks');
       const newListItem= document.createElement(li);
-       
+
       newListItem.innerHtml=task-description-input.value;
        myTasksLists.appendChild(newListItem);
           console.log(myTasksLists);
